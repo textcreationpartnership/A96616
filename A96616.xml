@@ -1,0 +1,388 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The pathway to eternal life being the last sermon of that eminent divine Mr. T. Williams, B.D., lately deceased.</title>
+            <author>Williams, T., B.D.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 20 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A96616</idno>
+            <idno type="STC">Wing W2771A</idno>
+            <idno type="STC">ESTC R42804</idno>
+            <idno type="EEBO-CITATION">38875776</idno>
+            <idno type="OCLC">ocm 38875776</idno>
+            <idno type="VID">152518</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A96616)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 152518)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2300:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The pathway to eternal life being the last sermon of that eminent divine Mr. T. Williams, B.D., lately deceased.</title>
+                  <author>Williams, T., B.D.</author>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for A. Bettesworth ...,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>[ca. 1700]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Date of publication from Wing (2nd ed.).</note>
+                  <note>Imperfect: tightly bound, and torn, with loss of text.</note>
+                  <note>Reproduction of original in: Dr. Williams' Library (London, England).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Hebrews IX, 27 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+               <term>Future life --  Christianity --  Sermons.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-02</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2013-02</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:152518:1" rendition="simple:additions"/>
+            <p>THE Pathway to Eternal Life: BEING The Laſt SERMON of that Eminent Divine Mr. <hi>T. WILLIAMS.</hi> B. D. lately deceaſed</p>
+            <figure>
+               <figDesc>depiction of Mr. T. Williams, B. D. giving a sermon to the congregation</figDesc>
+            </figure>
+            <p>Licenſed according to Order.</p>
+            <p>Printed for <hi>A. Betteſworth</hi> at the <hi>Red Lyon</hi> on <hi>London-Bridge</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="2" facs="tcp:152518:2"/>
+            <epigraph>
+               <q>
+                  <bibl>Heb. chap. 9. ver. 27.</bibl>
+                  <p>And it is appointed unto Men once to die, bu<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> after this the Judgment.</p>
+               </q>
+            </epigraph>
+            <p>MY Beloved, feeling my own decay I have choſ<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n this ſerious and ſea<g ref="char:EOLunhyphen"/>ſonable Text, which perhaps ma<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> be my laſt, to mind you of your latte<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Ends, that you may reflect on the ſhortneſ<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of Life, and the uncertainty thereof, as to its continuance; and to prove it ſhort and momentary, we find it in many reſpect<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> compared to things of the leaſt duration things that as it were only appear, and then ſuddenly fade away and vaniſh from our ſight. Holy <hi>David</hi> ſays, <hi>Thou haſ<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> made my liſe as it were a ſpan long, and min<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Age is nothing, in compariſon of thee.</hi> In other Places it is compared to Smoak that vaniſheth away; to the Flower that fa<g ref="char:EOLhyphen"/>deth; and to Graſs that is cut down, and withereth; and St. <hi>James,</hi> who ſpake by an excellent Spirit, ſays, <hi>Our Life is but a vapour;</hi> and yet this ſhort momentar<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Life, is, by the Creator of all things in h<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Eternal Wiſdom, given us as a Talent to improve on this ſide the Grave; that in doing well we may purchaſe Crowns o<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb n="3" facs="tcp:152518:2"/>Glory and Immortality, and a Life that ne<g ref="char:EOLhyphen"/>ver ſhall have end, in which we ſha<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> enjoy <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>leaſures, pure, and unmixed with <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>or<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ows; Joys that fade not away, but abide <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>or ever; though here we are Strangers <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd Pilgrims, and have no tarrying City, out travel through a Wilderneſs and Vale of Tears; yet beyond the Grave, when Time ſhall be with us no more, we ſhall have fixed and durable Habitations, Man<g ref="char:EOLhyphen"/>ſions not made with hands, in the higheſt Heavens, ſhining with Honour and ſpark<g ref="char:EOLhyphen"/>ing Glory, which Chriſt, who laid down his precious Life, and ſhed his rich Re<g ref="char:EOLhyphen"/>deeming Blood for mankind, is gone before to prepare for all thoſe that love his Name, and obey his Goſpel.</p>
+            <p>That Death is the certain Lot of all Man<g ref="char:EOLhyphen"/>kind, daily Experience ſhews us, by the dropping off of our Friends and neareſt Re<g ref="char:EOLhyphen"/>lations, one where or other, unto the Grave, adding a new Cauſe of Sorrow to mournat their Funeral, and ſpread doleful Cyprus over their Herſes, till it comes to our own <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>urns, when matured by time to follow <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hem, lie down within the Chambers of Duſt, there to remain till the Morning of the Reſurrection, when the loud Arch-An<g ref="char:EOLhyphen"/>gel's Trumpet ſhall rouſe us from our long
+<pb n="2" facs="tcp:152518:3"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="3" facs="tcp:152518:3"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="4" facs="tcp:152518:4"/>ſilent Re<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e, to meet the Lord of Glory coming in the Clouds of Heaven to judge us, and accordingly pronounce the Sen<g ref="char:EOLhyphen"/>tance of Reward or Puniſhments, as we have done Good or Evil in the Fleſh.</p>
+            <p>Death is intailed on us for the Sin and Diſobedience of our firſt Parents, and there is no Pledge nor Reprieve from it, nor do we know any certain limit of time when it will ſnatch us hence. The tender Bloſſoms as often fall, as the ripe mellowed Fruit; the Lamb as ſoon as the aged Sheep, goes to the Slaughter, and however it falls out, we muſt at one time or other all paſs through the Valley of the Shadow of Death.</p>
+            <p>Now ſome who have heard of the un<g ref="char:EOLhyphen"/>ſpeakable Joys of Heaven, may ſay I am deſirous to depart, and be with Chriſt; but yet the grim King of Terrors, ſtanding be<g ref="char:EOLhyphen"/>tween, ſtartles and amazes them into this farther Conſideration, how to come to the bleſſed Shore, where there is ſo great a Gulf between them and it, as to be lead Captive unto his gloomy Chambers, and in their fright, ſay with the Pſalmiſt, <hi>My Heart is ſore pained within me, and the pains <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f Death are fallen upon me; fearfulneſs and <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>embling are come upon me, and horror,</hi> Pſal. <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 4,5. I ſee the Shore where I willingly
+<pb n="5" facs="tcp:152518:4"/>would be out of the Troubles, Sorrows, Cares, and Vexations of this tempeſtuous World which is at enmity with me; but Oh! here is a great Gulf between me and that <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>leſſed Elizium; I muſt be toſſed on a boi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>terous Sea, and be wrecked by dreadful Waves and Tempeſts: Is there no way to <hi>Canaan,</hi> but through the deſolate Wilder<g ref="char:EOLhyphen"/>neſs? Muſt I go through the Valley of the Shadow of Death, to the Land that flows with Milk and Honey; the new and hea<g ref="char:EOLhyphen"/>venly Jeruſalem, which is above? Theſe are things contrary to Fleſh and Blood, and ſuch as will make the ſtouteſt Courage faint and tremble.</p>
+            <p>Yet certain it is, ſay what they will, the way to true Life lies through the Gates of Death; it is irrevocably appointed unto Man once to die; and therefore, to anti<g ref="char:EOLhyphen"/>dote our ſelves againſt the Fears and Hor<g ref="char:EOLhyphen"/>rors of Death, and the Confuſion and Per<g ref="char:EOLhyphen"/>plexity of a Dying State, is ſo to live al<g ref="char:EOLhyphen"/>ways, as if we were knocking at the Gates of the Grave; and then the Grave ſhall ne<g ref="char:EOLhyphen"/>ver have power to prevail againſt us to our hurt; always conſidering, when we come to die, it is the determinate Order and Ap<g ref="char:EOLhyphen"/>pointment of God, in whom we live, and move, and have our Being; he places our
+<pb n="6" facs="tcp:152518:5"/>Souls in theſe earthly Tabernacles of Clay and we are only here Tenants at Will, lia<g ref="char:EOLunhyphen"/>ble to be diſpoſſeſed at Pleaſure; <hi>it is ap<g ref="char:EOLhyphen"/>pointed for all Men once to die,</hi> and that it is an irrevocable Decree of Heaven, that we muſt all walk through the Valley of the Shadow of Death, Why ſhould we, like Men without Hope, fear any Evil? For the Lord is with the Righteous, and will guide them ſafely through the Terrors and Affrightments that they are naturally atten<g ref="char:EOLhyphen"/>ded with: Then ſhall they reſt from their Labours, and their Works ſhall follow them, to crown them with everlaſting Joys, and a peaceable Serenity to all Eter<g ref="char:EOLhyphen"/>nity; then ſhall they look back on the Dan<g ref="char:EOLhyphen"/>gers they have paſt. with Joy, and ſing Praiſes and Hallelujahs to him that liveth for ever and ever.</p>
+            <p>Let us not then look upon Death, as ſome ſtrange unexpected Accident befel us; for may we not hereupon ſay with the Apoſtle St. <hi>Paul, That no man ſhould be moved with th<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſe Afflictions; for your ſelves know that we are appointed hereunto,</hi> 1 Theſ. 3.3.</p>
+            <p>It is an undoubted Mitigation of any Sorrow or Affliction, to know that God hath appointed it as an unavoidable Lot and Portion of all Man Living; ſo that on this
+<pb n="7" facs="tcp:152518:5"/>Account we may ſay with the Pſalmiſt, <hi>I <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ill fear no Evil, for thou art with me;</hi> for <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ertain it is, all the Evil in Death proceeds only from an evil Life: For a good Life <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>akes away the Sting of Death, and makes his cold Embraces eaſie and tollerable; but <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> bad Life gives him double Arms againſt us; Power over us here and hereafter, in a more terrible and fearful ſecond Death, a Death to all Eternity, though living to bear the unſpeakable Terrors of it; exclu<g ref="char:EOLhyphen"/>ded for ever from all that is God, except his Anger and fiery Indignation; the Conſide<g ref="char:EOLhyphen"/>ration of which made the Prophet cry out, <hi>Who can dwell with the everlaſting Burnings?</hi> and ſuch muſt do it, who taſte of the ſecond Death, by falling into God's Diſpleaſure by ſinning, and heaping up wrath againſt the Day of Wrath; for our God, when he is angry, is a conſuming Fire; nay, if his Anger be but a little kindled in his Breaſt, bleſſed are all they that truſt in him; and if Sin makes the firſt Death ſo uneaſie, it muſt neceſſarily render the ſecond infinitely more intollerable.</p>
+            <p>For indeed, the Sting of Death is Sin, and no Terror is in this State like that which doth redound to us from a guilty Conſci<g ref="char:EOLhyphen"/>ence, which has got us under hold, and will
+<pb n="8" facs="tcp:152518:6"/>chaſtiſe us; for though in our Health an<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Jollitry we may paſs it over lightly, yet o<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> our Sick-Beds, when Death ſtares us ghaſt<g ref="char:EOLhyphen"/>ly in the Face, then the pains of Hell, as i<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> were, gets hold on us, we are in Troubl<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and Heavineſs, our Souls are as reſtleſs and uneaſie as our Bodies; then, as the Prophe<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>Iſaiah</hi> ſays, <hi>We are like a troubled Sea, that cannot reſt, whoſe waters cast up dirt and mire;</hi> and again, <hi>there is no peace,</hi> ſaith my God, <hi>to the wicked;</hi> for in ſuch a State, when we come to die, the greateſt Melancholly that ſhall then ſeize our Spirits, will be from the heavy Load and Burthen of our Sins, that will be ready to oppreſs and ſink our Souls.</p>
+            <p>Then we ſhall find that Threatning ve<g ref="char:EOLhyphen"/>rifi'd in us, <hi>Pſal.</hi> 50.21. <hi>I will reprove th<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e, and ſet them in order before thine Eyes;</hi> and what Grief or Anguiſh can be comparable to that which redounds from this, when we are going hence? and when God, by viſiting Sickneſs, as his Meſſenger, gives us warning to remove, Muſt it not con<g ref="char:EOLhyphen"/>cern and afflict us, beyond all Thought and Expreſſion, to conſider, in ſuch a Caſe, what Danger our Sins have brought us to? They hide God's Face and Mercy from us, and in our greateſt need of Comfort and Support, threaten us with utter Ruin and
+<pb n="9" facs="tcp:152518:6"/>Deſtruction, and nothing now can be ſo ſharp and intollerable, as the Thoughts of a diſpleas'd and angry God; and well may that be ſo to us, which was the greateſt of our Saviour's Troubles; for at his Dying Hour, the Guilt of all our Sins, preſſing heavy upon his Soul, occaſioned a bitter Agony, and that bitter Exclamation, <hi>viz. My God! My God! Why haſt thou forſaken me?</hi> And moſt certainly, at the Dying Hour of all wicked Men and Women, the Senſe of Guilt will be the bittereſt Potion, and the very Dregs of the Cup of trem<g ref="char:EOLhyphen"/>bling; their Hearts will faint, and their Souls will ſink within them; it will be with them, as with <hi>Felix,</hi> when <hi>Baul</hi> preached of Judgment to come; his Guilt through the fear of it, made him tremble. They ſhall ſhake and fear, and cry mightily, and have on them ſuch paſſionate Concernment as is inexpreſſible, from the diſmal Appre<g ref="char:EOLhyphen"/>henſions of the Divine Wrath and Indigna<g ref="char:EOLhyphen"/>tion which their Sins have kindled and pro<g ref="char:EOLhyphen"/>voked againſt them, even to cry out with <hi>Cain, Their Puniſhment is greater than they can bear.</hi>
+            </p>
+            <p>Then whilſt it is to day, Let us hear God's Voice, Calling to us to repent; Let us be up and doing his Will, leaſt the night
+<pb n="10" facs="tcp:152518:7"/>of Death ſuddenly overtake us, in which no Man can work; for in the Grave there is no Repentance; as the Tree falls, ſo it lies; as Death leaves us, ſo will Judgment find us: Which is the next and laſt thing purſu<g ref="char:EOLhyphen"/>ing my Text I propoſe to treat on, <hi>viz.</hi>
+            </p>
+            <p>
+               <hi>After this, the Judgment:</hi> We have a ſure word for it, that after Death there is a Judgment.</p>
+            <p>
+               <hi>I am, ſaith the Lord, the Reſurrection and the Life, he that believeth in me, though he were d<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ad, yet ſhall he live: And whoſoever liveth and believeth in me, ſhall never die,</hi> St. John 11.25, 26. And Holy <hi>Job</hi> ſays, <hi>I know that my Redeemer liveth, and that he ſhall ſtand at the latter day upon the Earth; And though after my skin, worms deſtroy this body, yet in my fl<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſh ſhall I ſee God; Whom I ſhall ſee for my ſelf, and mine eyes ſhall be<g ref="char:EOLhyphen"/>hold, and not another,</hi> Job 19.25, 26, 27.</p>
+            <p>This plainly proves, that after Death the Soul ſhall deſcend and unite again with the Body, and both at the ſound of the laſt Trump ſhall ariſe together, to receive their Rewards for the works done in the Fleſh, whether it be Good, or whether it be Evil; for St. <hi>Paul</hi> ſays, 1 Cor. 15.52, 53. <hi>The trumpet ſhall ſound, and the dead ſhall be rai<g ref="char:EOLhyphen"/>ſed incorruptible, and we ſhall be changed; for
+<pb n="11" facs="tcp:152518:7"/>this corruptible muſt put on incorruption, and this mortal muſt put on immortality.</hi>
+            </p>
+            <p>The Earth, Sea, and Hell ſhall be com<g ref="char:EOLhyphen"/>pell'd to give up the Dead that are in them, <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd they ſhall be gathered from the Four Winds under Heaven, and be caught up to meet the Lord, Coming in the Air, ac<g ref="char:EOLhyphen"/>companied with Ten Thouſand Angels, to <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>udge the Inhabitants of the Earth, at whoſe Preſence its Foundations ſhall tremble, and <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t ſhall be diſſolved; the Elements ſhall melt with fervent heat; the Stars ſhall fall; <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he Sun be darkned, the Moon turned into Blood; and the Heavens rowled up toge<g ref="char:EOLhyphen"/>gether like a ſcrole, in that great and terri<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>le Day, when the Book ſhall be opened, wherein all our Actions ſhall be written, <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd we ſhall be judged out of it, according <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o the things that are written therein; then <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>appy is it for him who has well improved <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is Talent in this Life, he ſhall enter into <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he Joy of his Lord with Praiſes, and clad <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n ſhining Robes, crowned with Glory and Honour, in everlaſting Life, where all Tears <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hall be wiped away from his Eyes, and he <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll ſee the abundant Recompence of his <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>bour in his Spiritual Warfare; for he <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>at is faithful has promiſed it.</p>
+            <p>But thoſe that have been ſ<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oathful and
+<pb n="12" facs="tcp:152518:8"/>unprofitable Servants, ſhall call in vain to the Rocks and Mountains to fall upon them to hide them from the Face of the Lamb, and from the Face of him that ſitteth on the Throne, but no hiding Place ſhall ſhield them from his Wrath and fiery Indignati<g ref="char:EOLhyphen"/>on, which ſhall purſue them to Eterna<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Torments, upon pronouncing, <hi>Go ye cur<g ref="char:EOLhyphen"/>ſed into everlaſting fire, prepared for the de<g ref="char:EOLhyphen"/>vil and his angels, where ſhall be woes and lamentations, anguiſh and gnaſhing of teeth where the worm never dieth, and the fire i<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> not quenched.</hi>
+            </p>
+            <p>From which Torments God of his infi<g ref="char:EOLhyphen"/>nite Mercy deliver us all, by giving us Hearts for a timely Repentance, before we go hence; for the ſake of his well-beloved Son Jeſus Chriſt, who ſhed his precious Blood, that redeemed us from Sin and eter<g ref="char:EOLhyphen"/>nal Death, that we might live and reign with him evermore. <hi>Amen.</hi>
+            </p>
+            <div type="part">
+               <head>His laſt Speech, or pious Exhortations to his Pariſhioners on his Death-Bed, Exhorting them to a Godly Life.</head>
+               <p>AT the Cloſe of this Sermon, a faint<g ref="char:EOLhyphen"/>neſs ſeized this good Divine, and as he had predicted, it proved his laſt, and ſerved as a Comfortable Mourning-Dreſs
+<pb n="13" facs="tcp:152518:8"/>for his Funeral; for being led home, he found his Illneſs increaſe, and in a Day or two, perceiving his Diſſolution drew nigh, he ſent for the chief of his Pariſhioners, who ſtanding about his Bed, he made the following Speech, or Farewel Exhortation to them.</p>
+               <p>My Beloved Pariſhioners, Finding by my Age, and more by a ſenſible decay of Na<g ref="char:EOLhyphen"/>ture, I have not long to ſtay with you, but muſt follow, as I hope, thoſe bleſt Souls that are gone to the Boſom of Bliſs before me. In the firſt place, to do all the Good I can whilſt I live, I commend the peruſal of my Laſt Sermon to you, to which end I have given order it ſhall be printed for the general Benefit; and particularly of you that have heard it delivered from my Mouth; and being ſo ſuitable to the Occa<g ref="char:EOLhyphen"/>ſion, I may well term it my <hi>Funeral Ser<g ref="char:EOLhyphen"/>mon.</hi> In the next place, I deſire you ear<g ref="char:EOLhyphen"/>neſtly to repent you of your Sins, and bring up your Children in the fear of the Lord. In the third place, Let your dying Paſtor prevail with you to live in Love and Unity with one another, and be charitable to the Poor, comfort the Afflicted, and ſo you will bring down a Bleſſing on your ſelves, and your Poſterity. Fourthly, Put
+<pb n="14" facs="tcp:152518:9"/>not Death far away from your Thoughts as a thing at a diſtance, but ſtrive to be al<g ref="char:EOLunhyphen"/>ways prepared for it, for we know not th<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Hour of its Coming; ſeeing when w<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> think it fartheſt off, it often is neareſt a hand, and too ſadly ſurprizes many, like a Thief in the Night. And now what elſe remains, I hope a good Man ſucceeding me in this Cure, will not fail to inſtruct every<g ref="char:EOLhyphen"/>one of you, as occaſion ſhall require.</p>
+               <p>And now the Bleſſing of God Almighty, the Father, the Son, and Holy Spirit, Three Perſons, and One God, be with you, and remain with you, to your Lives ends, <hi>Amen.</hi>
+               </p>
+               <p>This he expreſſed ſo affectionately, as made them weep over ſo good a dying Man. After theſe Exhortations he pro<g ref="char:EOLhyphen"/>ceded to repeat the following Prayer.</p>
+            </div>
+            <div type="part">
+               <head>His Prayer.</head>
+               <p>
+                  <hi>O Eternal God! Father of Spirits, Ever<g ref="char:EOLhyphen"/>laſting King of Glory, look down with the Eyes of thy infinite Goodneſs and Mercy, to me thy poor and unworthy Servant, lying on my Bed of Sickneſs, preparing to come un<g ref="char:EOLhyphen"/>to thee; ſtrengthen me againſt the Faars and Terrors of Death, and give me a ſtedfaſt Faith and Hope to overcome all the ſubtle Temptations of Satan, that in this laſt En<g ref="char:EOLhyphen"/>counter
+<pb n="15" facs="tcp:152518:9"/>he ſuggeſts to stagger my Confidence in <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hee. O let me remain ſure grounded, and ſuffer me to place it no where elſe but in thee; <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hat living I may be thine, or dying I may be <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hine; and ever praiſe and magnifie thy Holy Name, for all thy Mercies; through the Me<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>its and Mediation of Jeſus Chriſt, my ever <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>leſſed Saviour and Redeemer.</hi> Amen.</p>
+               <p>After this, fetching ſome Sighs, with <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>fted up hands, he put up the following <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>jaculations.</p>
+            </div>
+            <div type="part">
+               <head>His laſt pious Ejaculations.</head>
+               <p>O Lord! thou haſt been my Refuge from my Youth, and under thy everlaſt<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ng Arm is my Covering and my Salvation. As the Hart panteth after the Water-brook, <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> my Soul thirſteth for the Living God.</p>
+               <p>I am in a ſtraight between two, but my <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eſire is to be diſſolved and be with Chriſt.</p>
+               <p>O how amiable are thy Tabernacles; <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ou Lord of Hoſts! and how bleſſed are <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>l they that dwell therein.</p>
+               <p>Why art thou ſo heavy, O my Soul! <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>d why art thou ſo diſquieted within me! <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> put thy Truſt in God, and he ſhall deliver <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ee from the Power of the Enemy.</p>
+               <p>Death is ſwallowed up in Victory. O <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eath! Where is thy Sting? O Grave! <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>here is thy Victory? Thanks be to God,
+<pb n="16" facs="tcp:152518:10"/>who giveth me the Victory, through ou<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Lord Jeſus Chriſt.</p>
+               <p>I have fought the Fight, I have finiſhe<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> my Courſe, I have kept the Faith, and from this Day is laid up for me a Crown of Glory<g ref="char:punc">▪</g>
+               </p>
+               <p>Theſe laſt words he brought forth with a pleaſing ſmile, and then fainting, he ſaid Lord Jeſus into thy hands I commend my Spirit, and ſo ſweetly died; at the Depar<g ref="char:EOLhyphen"/>ture of whoſe Soul, there was ſuch a har<g ref="char:EOLhyphen"/>monious Sound heard, as made thoſe pr<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>ſent fall on their Knees and give Praiſe <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> God for all his Mercies.</p>
+               <p>As for the Sermon before ſet down, th<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Pariſhioners were earneſt to have it prea<g ref="char:EOLhyphen"/>ched from his Notes at his Funeral, before it came abroad, and prevail'd with his Re<g ref="char:EOLhyphen"/>lations accordingly, the Auditors being ve<g ref="char:EOLhyphen"/>ry numerous: and thus paſſed this painful Pious Divine, from this troubleſome Life, to an endleſs one in Glory,</p>
+            </div>
+         </div>
+         <trailer>FINIS.</trailer>
+      </body>
+      <back>
+         <div type="to_the_reader">
+            <opener>
+               <salute>Chriſtian Reader,</salute>
+            </opener>
+            <p>If that theſe weighty Conſiderations ſhould be reckoned not worth laying out one Penny, be pleaſed to read it <hi>Gratis,</hi> keep it clean, and return it in two Hours.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
